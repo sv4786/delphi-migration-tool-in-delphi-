@@ -4,7 +4,8 @@ program Delphi2007Migration;
 
 uses
   SysUtils,
-  Classes;
+  Classes,
+  Windows;
 
 const
   SourceExtensions: array[0..4] of string = ('.pas', '.dpr', '.dpk', '.inc', '.dfm');
