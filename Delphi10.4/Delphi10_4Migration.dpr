@@ -6,7 +6,8 @@ uses
   System.SysUtils,
   System.Classes,
   System.IOUtils,
-  System.RegularExpressions;
+  System.RegularExpressions,
+  System.StrUtils;
 
 const
   SourceExtensions: array[0..4] of string = ('.pas', '.dpr', '.dpk', '.inc', '.dfm');
