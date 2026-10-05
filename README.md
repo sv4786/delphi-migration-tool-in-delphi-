@@ -32,3 +32,14 @@ The tool does not blindly convert every `string` to `AnsiString`, replace every 
 ## No external dependencies
 
 Both implementations are native Delphi console applications and do not require Python or third-party libraries.
+
+
+
+## Automatic conversion tools
+
+The repository also contains native converters:
+
+- `Delphi2007/Delphi2007Converter.dpr`
+- `Delphi10.4/Delphi10_4Converter.dpr`
+
+Each converter creates a separate `_Converted` copy and applies the unambiguous Unicode type mappings while producing a conversion report.
